@@ -41,6 +41,10 @@ function App() {
 
         <MyRoutes />
 
+        <footer class="login-footer">
+          <p>Desarrollado por Codelabs Projects 2026</p>
+        </footer>
+
         <ReactQueryDevtools initialIsOpen={true} />
       </AuthContextProvider>
     </ThemeProvider>

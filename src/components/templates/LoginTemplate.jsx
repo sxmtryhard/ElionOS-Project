@@ -147,7 +147,11 @@ export function LoginTemplate() {
               </PanelModo>
             )}
       </div>
-      <Footer />
+      <FooterLogin>
+        <section className="derechosLogin">
+          <span>Desarrollado por CodeLabsProjects  2026</span>
+        </section>
+      </FooterLogin>
     </Container>
   );
 }
@@ -174,6 +178,21 @@ const Container = styled.div`
       display: flex;
       flex-direction: column;
       gap: 10px;
+    }
+  }
+`;
+const FooterLogin = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-size: 12.2px;
+  color: #91a4b7;
+  gap: 5px;
+  margin: 10px;
+  .derechosLogin {
+    display: flex;
+    justify-content: center;
+    span {
+      margin-top: 5px;
     }
   }
 `;
